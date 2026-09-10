@@ -152,7 +152,7 @@ export const services = {
             ":user/photo/:postId",
             "v/:postId.html"
         ],
-        subdomains: ["vt", "vm", "m", "t"],
+        subdomains: ["vt", "vm", "m", "t", "pro"],
     },
     tumblr: {
         patterns: [
@@ -204,14 +204,6 @@ export const services = {
         ],
         subdomains: ["m"],
         altDomains: ["vkvideo.ru", "vk.ru"],
-    },
-    xiaohongshu: {
-        patterns: [
-            "explore/:id?xsec_token=:token",
-            "discovery/item/:id?xsec_token=:token",
-            ":shareType/:shareId",
-        ],
-        altDomains: ["xhslink.com"],
     },
     youtube: {
         patterns: [
